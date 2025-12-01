@@ -1,0 +1,31 @@
+On souhaite créer une application basée sur une architecture micro-service qui permet de gérer des conférences
+assurées par des Keynote. Chaque keynote est définir par son id, son nom, son prénom, son email et sa fonction.
+Une conférence est définie par son id, son titre, son type (académique ou commerciale), sa date, sa durée, le
+nombre d’inscrits et son score.
+L’application doit permettre de gérer les Keynote et les conférences. Pour faire plus simple, cette application se
+composera de deux micro-services fonctionnels :
+• Un Micro-service qui permet de gérer des « Keynote ».
+• Un Micro-service qui permet de gérer les conférences. Pour chaque conférence, on doit pouvoir recueillir
+plusieurs reviews. Chaque review est identifié par son id, sa date, son texte, et sa note (stars) (1 à 5)
+Les micro-services technique à mettre en place sont :
+• Le service Gateway basé sur Spring cloud Gateway
+• Le service Discovery base sur Eureka Server ou Consul Discovery (au choix)
+• Le service de configuration basé sur Spring cloud config ou Consul Config (au choix)
+Pour l’application, nous avons besoin de développer une frontend web, basé sur Angular Framework.
+La sécurité de l’application est basée sur Oauth2 et OIDC avec Keycloak comme Provider
+Pour les micro-services, il faut générer la documentation des web services Restfull en utilisant la spécification
+OpenAPIDoc (Swagger). Prévoir aussi des circuit breakers basés sur Resilience4J comme solution de fault
+tolerence
+Travail de mandé :
+Rendre un rapport PDF et le code source des projets au format zip, répondant aux questions suivantes
+1. Établir une architecture technique du projet
+2. Créer un Projet Maven incluant les micro-services suivants : keynote-service, conference-service,
+gateway-service, discovery-service, config-service et angular-front-app
+3. Développer et tester les micro-services discovery-service et gateway-service et config-service
+4. Développer et tester le micro-service Keynote-service (Entities, DAO, service, DTO, Mapper,
+RestController)
+5. Développer et tester le micro-service conférence-service (Entities, DAO, service, DTO, Mapper,
+RestController, Client Rest Open Feign)
+6. Développer un simple frontend web pour l’application
+7. Sécuriser l’application avec une authentification Keycloak
+8. Déployer l’application avec Docker et Docker compose

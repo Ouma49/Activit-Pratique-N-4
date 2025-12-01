@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\client\KeynoteClient.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\ConferenceServiceApplication.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\domain\Conference.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\domain\ConferenceType.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\domain\Review.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\dto\ConferenceDTO.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\dto\ReviewDTO.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\mapper\ConferenceMapper.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\repository\ConferenceRepository.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\repository\ReviewRepository.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\security\SecurityConfig.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\service\ConferenceService.java
+C:\Users\hp\Desktop\microservices\Activite4\conference-service\src\main\java\com\example\conference\web\ConferenceController.java
